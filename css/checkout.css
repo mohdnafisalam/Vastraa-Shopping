@@ -1,0 +1,57 @@
+body {
+    background-color: #D8CFAF;
+}
+
+/* Header */
+header {
+    background-color: #ed9390;
+    min-height: 70px; 
+}
+
+.logo {
+    color: #b42b68;
+}
+
+#srch {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 0px solid white;
+    height: 38px;
+}
+
+.search-icon {
+    color: white;
+    background-color: #32533D;
+    padding: 0 1.2rem;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 38px;
+}
+
+.l-c {
+    color: rgb(62, 57, 57);
+    font-size: 1.4em; 
+    font-weight: 650;
+    text-decoration: none;
+}
+
+/* Navbar */
+.nav-bar {
+    background-color: #32533D;
+}
+
+.nav-el a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
+/* Footer */
+.foot-nav {
+    background-color: #405647;
+}
+
+.foot-copyright {
+    background-color: #32533D;
+}
