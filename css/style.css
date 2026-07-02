@@ -1,5 +1,5 @@
 body {
-    background-color: #D8CFAF;
+    background-color: #e6b89c;
 }
 
 /* Header */
@@ -34,6 +34,168 @@ header {
     font-weight: 650;
     text-decoration: none;
 }
+
+
+
+/* Main */
+.background-box {
+    background-color: #d8cfaf;
+    border-radius: 15px;
+}
+
+.section-title {
+    border-left: 4px solid #32533D;
+    font-weight: 700;
+}
+
+.category-box {
+    width: 140px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.category-text { 
+    font-size: 1.2em;
+    font-weight: 500;
+    color: black;
+}
+
+/* Category Images */
+.category-img1, .category-img2, .category-img3, .category-img4, .category-img5, .category-img6, .category-img7 {
+    background-size: cover;
+    background-position: center;
+    width: 120px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.category-img1 {
+     background-image: url("../assets/image/men.webp"); 
+}
+.category-img2 {
+     background-image: url("../assets/image/women.png"); 
+}
+.category-img3 {
+     background-image: url("../assets/image/mobile.webp"); 
+}
+.category-img4 {
+     background-image: url("../assets/image/shoes.webp"); 
+}
+.category-img5 {
+     background-image: url("../assets/image/headphone.webp"); 
+}
+.category-img6 {
+     background-image: url("../assets/image/watch.webp"); 
+}
+.category-img7 {
+     background-image: url("../assets/image/WhasingMachine.jpg"); 
+}
+
+/* Promo Banners */
+.promo-banner {
+    background-color: #d8cfaf;
+    border-radius: 15px;
+}
+
+.promo {
+    width: 100%;
+    max-width: 620px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .promo {
+        height: 180px;
+    }
+}
+
+.promo1 {
+    background-image: url("../assets/image/promo1.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.promo2 {
+    background-image: url("../assets/image/promo2.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Trending Products */
+.trending-products {
+    background-color: #d8cfaf;
+    border-radius: 15px;
+}
+
+.trending-head {
+    border-left: 4px solid #32533D;
+}
+
+.trending-head h4 {
+    font-weight: 700;
+    color: black;
+}
+
+.product {
+    max-width: 300px;
+    border-radius: 13px;
+    background-color: whitesmoke;
+}
+
+.product-img {
+    background-image: url("../assets/image/placeholder.png");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+
+.product-name {
+    color: black;
+    font-weight: 500;
+}
+
+.stars {
+     color: gold; 
+}
+.empty {
+     color: grey; 
+}
+.price-now {
+     font-weight: 700;
+      color: black; 
+}
+.price-was {
+     text-decoration: line-through;
+      color: grey;
+       font-size: .85rem; 
+}
+.price-off {
+     color: red;
+      font-weight: 600;
+       font-size: .85rem; 
+}
+
+
+.aoc {
+    color: #b42b68;
+    border: 1px solid #b42b68;
+    border-radius: 10px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.aoc:hover {
+    color: white;
+    background-color: #b42b68;
+}
+
+
+
+
+
 
 /* Navbar */
 .nav-bar {

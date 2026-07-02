@@ -1,5 +1,5 @@
 body {
-    background-color: #D8CFAF;
+    background-color: #e6b89c;
 }
 
 /* Header */
@@ -34,6 +34,242 @@ header {
     font-weight: 650;
     text-decoration: none;
 }
+/* main */
+
+
+
+/* main content 1 */
+
+
+/* image */
+.main-box{
+    background-color: #d8cfaf;
+    border-radius: 10px;
+}
+.img-box{
+    background-color: white;
+    border: 0.5px solid rgb(179, 179, 179);
+    border-radius: 13px;
+    width: 600px;
+    height:700px;
+}
+.main-img{
+    border-radius: 13px;
+    border: 0.5px solid rgb(179, 179, 179);
+    height: 75%;
+    width: 100%;
+    background-image: url("../assets/image/placeholder.png");
+    background-size: cover;
+    background-position: center;
+}
+.more-img{
+    height: 25%;
+    width: 100%;
+}
+.mini-img{
+    border-radius: 13px;
+    border: 0.5px solid rgb(179, 179, 179);
+    height: 100%;
+    width: 24%;
+    background-image: url("../assets/image/placeholder.png");
+    background-size: cover;
+    background-position: center;
+}
+.product-detail{
+    background-color: white;
+    border: 0.5px solid rgb(179, 179, 179);
+    border-radius: 13px;
+    width: 600px;
+    height: 700px;
+}
+@media (max-width:576px) {
+    .product-detail{
+        max-width: 600px;
+    }
+    .img-box{
+        max-width: 600px;
+    }
+}
+.product-detail h4{
+    font-weight: 700;
+}
+.stars {
+     color: gold; 
+}
+.empty {
+     color: grey; 
+}
+.price-now {
+    font-weight: 700;
+    color: black;
+    font-size: 2rem; 
+}
+.price-was {
+    text-decoration: line-through;
+    color: grey;
+    
+}
+.tax-delivery{
+    color:rgb(109, 109, 205);
+}
+.quantity-select{
+    max-width: 300px;
+}
+
+.pincode input{
+    max-width:200px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius:8px;
+    border: 1px solid black;
+}
+.pincode button{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #32533D;
+    color: white;
+    border-width: 0px;
+}
+.addtocart, .buynow {
+    width:275px;
+    border: 1px solid #32533D;
+    border-radius:13px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+@media (max-width:576px) {
+    .addtocart .buynow{
+        max-width : 275px;
+    }
+}
+.addtocart{
+    color: white;
+    background-color: #32533D;
+}
+.buynow:hover{
+    color: white;
+    background-color: #32533D;
+}
+
+
+/* main content 2 */
+
+.ratings{
+    background-color: white;
+    border-radius:15px;
+    border: 0.5px solid rgb(179, 179, 179);
+    width: 500px;
+}
+
+.ratings h4{
+    border-left: 4px solid #32533D;
+}
+
+.rating-box {
+    max-width: 650px;
+}
+
+.star-label, .percent-label {
+    font-size: 1.1rem;
+}
+
+.progress-thin {
+    height: 10px;
+    background-color: #ebedf0;
+    border-radius: 10px;
+}
+
+.bar-green {
+    background-color: #137333 !important;
+    border-radius: 10px;
+}
+
+.description{
+    background-color: white;
+    border-radius: 15px;
+    width: 600px;
+}
+.description h4{
+    border-left: 4px solid #32533D;
+}
+
+/* main content 3 */
+
+.main-content3 h4{
+    border-left: 4px solid #32533D;
+}
+
+.trending-head {
+    border-left: 4px solid #32533D;
+}
+
+.trending-head h4 {
+    font-weight: 700;
+    color: black;
+}
+
+.product {
+    max-width: 300px;
+    border-radius: 13px;
+    background-color: whitesmoke;
+}
+
+.product-img {
+    background-image: url("../assets/image/placeholder.png");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+
+.product-name {
+    color: black;
+    font-weight: 500;
+}
+
+.stars {
+     color: gold; 
+}
+.empty {
+     color: grey; 
+}
+.price-now {
+     font-weight: 700;
+      color: black;
+      font-size: 1.2rem;
+}
+.price-was {
+     text-decoration: line-through;
+      color: grey;
+       font-size: .85rem; 
+}
+.price-off {
+     color: red;
+      font-weight: 600;
+       font-size: .85rem; 
+}
+
+
+.aoc {
+    color: #b42b68;
+    border: 1px solid #b42b68;
+    border-radius: 10px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.aoc:hover {
+    color: white;
+    background-color: #b42b68;
+}
+
+
+
+
+
+
+
+
 
 /* Navbar */
 .nav-bar {
