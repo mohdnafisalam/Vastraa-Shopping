@@ -35,6 +35,98 @@ header {
     text-decoration: none;
 }
 
+
+/* create account  */
+.signup-box {
+    max-width: 680px;
+    background-color: #d8cfaf;
+    border-radius: 15px;
+}
+
+/* Titles */
+.form-title {
+    color: #1a202c;
+    font-weight: 700;
+    font-size: 1.95rem;
+}
+
+.field-label {
+    color: #2d3748;
+    font-weight: 500;
+    font-size: 1.05rem;
+    margin-bottom: 6px;
+}
+
+.check-label {
+    color: #2d3748;
+    font-size: 1rem;
+}
+
+/* Inputs & Form */
+.custom-input, 
+.custom-textarea {
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 12px 14px;
+    font-size: 1.05rem;
+    color: #2d3748;
+}
+
+
+
+/* Country */
+.country-code {
+    background-color: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-right: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #2d3748;
+    font-size: 1.05rem;
+}
+
+/* Checkbox */
+.custom-switch-btn {
+    width: 2.5em;
+    height: 1.25em;
+}
+
+.custom-checkbox-box {
+    width: 1.15em;
+    height: 1.15em;
+    cursor: pointer;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+}
+
+.brand-link {
+    color: #32533D;
+}
+
+.brand-link:hover {
+    color: #2a4533;
+}
+
+.btn-create-acc {
+    background-color: #32533D;
+    border: none;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 1.15rem;
+    transition: background-color 0.15s ease;
+}
+
+.btn-create-acc:hover {
+    background-color: #2a4533;
+    color: #ffffff;
+}
+
+
+
+
+
 /* Navbar */
 .nav-bar {
     background-color: #32533D;

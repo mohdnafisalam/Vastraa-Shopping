@@ -47,6 +47,82 @@
 
     <main>
 
+
+        <div class="container d-flex justify-content-center align-items-center min-vh-100 py-5">
+            <div class="signup-box p-5 w-100">
+                
+                <h2 class="form-title mb-4 ">Create your account</h2>
+                
+                <form>
+                    <div class="row g-3 mb-3">
+                        <div class="col-12 col-md-6">
+                            <label for="firstName" class="form-label field-label">First name</label>
+                            <input type="text" id="firstName" class="form-control custom-input" value="Amit">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="lastName" class="form-label field-label">Last name</label>
+                            <input type="text" id="lastName" class="form-control custom-input" value="Singh">
+                        </div>
+                    </div>
+
+                    <div class="row g-3 mb-3">
+                        <div class="col-12 col-md-6">
+                            <label for="email" class="form-label field-label">Email address</label>
+                            <div class="input-group email-group">
+                                <input type="email" id="email" class="form-control custom-input border-end-0" placeholder="Email address">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="password" class="form-label field-label">Password</label>
+                            <input type="password" id="password" class="form-control custom-input" placeholder="Password">
+                        </div>
+                    </div>
+
+                    <div class="row g-3 mb-3">
+                        <div class="col-12 col-md-6">
+                            <label for="mobile" class="form-label field-label">Mobile number</label>
+                            <div class="input-group">
+                                <span class="input-group-text country-code">+91</span>
+                                <input type="tel" id="mobile" class="form-control custom-input" value="98XXX XXXXX">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label class="form-label field-label">Gender</label>
+                            <select class="form-select custom-input text-muted">
+                                <option selected>Choose...</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="mb-1">
+                        <label for="address" class="form-label field-label">Delivery address</label>
+                        <textarea id="address" class="form-control custom-textarea" rows="3" placeholder="House no, street, city, PIN"></textarea>
+                    </div>
+
+                    <div class="form-check my-4">
+                        <input class="form-check-input custom-checkbox-box" type="checkbox" id="agreeTerms">
+                        <label class="form-check-label check-label" for="agreeTerms">
+                            I agree to the <a href="#" class="brand-link text-decoration-underline">Terms & Conditions</a>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-create-acc w-100 py-3 fw-medium mb-3">
+                        Create Account
+                    </button>
+                </form>
+
+                <div class="text-center mt-3">
+                    <p class="check-label mb-0">
+                        Already a member? <a href="login.html" class="brand-link fw-semibold text-decoration-underline">Login</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
     </main>
 
     
