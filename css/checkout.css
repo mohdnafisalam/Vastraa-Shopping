@@ -35,6 +35,145 @@ header {
     text-decoration: none;
 }
 
+
+
+/* main */
+.checkout-box {
+    background-color: #d8cfaf; 
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+}
+
+.page-title {
+    font-weight: 700;
+    color: #1a1a1a;border-left: 4px solid #32533D;
+}
+
+
+
+/* Layout section styles */
+.form-section {
+    background-color: #ffffff;
+    border: 1px solid #f1eee4;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.section-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111111;
+}
+
+.form-label {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #4a4a4a;
+    margin-bottom: 6px;
+}
+
+.form-control, .form-select, .input-group-text {
+    border-color: #ced4da;
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-size: 0.95rem;
+    color: #212529;
+}
+
+
+/* Custom Check for PIN */
+.is-valid-custom {
+    border-color: #198754 ;
+}
+.valid-check-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+/* Payment Option Radio Wrappers */
+.payment-option {
+    border: 1px solid #e9e6dd;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-left: 0;
+    transition: all 0.2s;
+}
+
+
+.payment-option .form-check-input {
+    float: left;
+    margin-left: 0;
+    margin-top: 0.25em;
+}
+
+
+/* Order Summary Box Styling */
+.summary-card {
+    background-color: #ffffff;
+    border: 1px solid #e9e6dd;
+    border-radius: 12px;
+    position: sticky;
+    top: 20px;
+}
+
+.summary-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #111111;
+}
+
+.summary-item {
+    font-size: 0.95rem;
+    color: #333333;
+}
+
+.summary-item.discount {
+    font-weight: 500;
+}
+
+.summary-total {
+    border-top: 1px solid #ced4da;
+}
+
+.total-price {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #000000;
+}
+
+/* Placwe Button */
+.btn-order {
+    background-color: #32533D;
+    color: #ffffff;
+    border: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    transition: background-color 0.2s;
+}
+
+.btn-order:hover {
+    background-color: #263d2e;
+    color: #ffffff;
+}
+
+.terms-text {
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Navbar */
 .nav-bar {
     background-color: #32533D;
