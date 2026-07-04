@@ -46,7 +46,429 @@
     </nav>
 
     <main>
+        <div class="shopping-box container my-4 p-3 p-md-4">
+            <div class="row g-4">
+                
+                <div class="col-lg-3 col-md-4">
+                    <div class="filter-sidebar p-4 bg-white border rounded-3">
+                        <h5 class="fw-bold mb-4">Filters</h5>
+                        
+                        <div class="filter-group mb-4">
+                            <h6 class="text-muted small fw-bold text-uppercase tracking-wider mb-3">Category</h6>
+                            <div class="list-group filter-list-group">
+                                <div class="list-border">
+                                    <a href="#" class="list-group-item list-group-item-action active d-flex justify-content-between align-items-center rounded-2 border-0 mb-1 py-2 px-3"  style="background-color: blue; color: white;">
+                                    All Products 
+                                    </a>
+                                </div>
+                                <div class="list-border">
+                                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center border-0 mb-1 py-2 px-3">
+                                    Men <span class="badge rounded-pill bg-secondary bg-opacity-70 ms-auto">486</span>
+                                    </a>
+                                </div>
+                                <div class="list-border">
+                                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center border-0 mb-1 py-2 px-3">
+                                    Women <span class="badge rounded-pill bg-secondary bg-opacity-70 ms-auto">438</span>
+                                    </a>
+                                </div>
+                                <div class="list-border">
+                                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center border-0 mb-1 py-2 px-3">
+                                    Footwear <span class="badge rounded-pill bg-secondary bg-opacity-70 ms-auto">374</span>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center border-0 py-2 px-3">
+                                    Accessories <span class="badge rounded-pill bg-secondary bg-opacity-70 ms-auto">823</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="filter-group mb-4">
+                            <h6 class="text-muted small fw-bold text-uppercase tracking-wider mb-3">Brand</h6>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="brandVastraa" checked>
+                                <label class="form-check-label ms-1" for="brandVastraa">Vastraa Ethnic</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="brandUrban">
+                                <label class="form-check-label ms-1" for="brandUrban">Urban Co.</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="brandBloom">
+                                <label class="form-check-label ms-1" for="brandBloom">Bloom</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="brandStepUp">
+                                <label class="form-check-label ms-1" for="brandStepUp">StepUp</label>
+                            </div>
+                        </div>
+
+                        <div class="filter-group mb-4">
+                            <h6 class="text-muted small fw-bold text-uppercase tracking-wider mb-2">Max Price: <span class="fw-normal text-dark">₹3000</span></h6>
+                            <input type="range" class="form-range custom-range" min="0" max="5000" value="3000">
+                        </div>
+
+                        <div class="filter-group mb-4">
+                            <h6 class="text-muted small fw-bold text-uppercase tracking-wider mb-3">Rating</h6>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="ratingFilter" id="rate4" checked>
+                                <label class="form-check-label ms-1" for="rate4">4★ & above</label>
+                            </div>
+                            <div class="form-check mb-4">
+                                <input class="form-check-input" type="radio" name="ratingFilter" id="rate3">
+                                <label class="form-check-label ms-1" for="rate3">3★ & above</label>
+                            </div>
+                        </div>
+
+                        <button type="button" class="btn btn-apply-filters w-100 py-2">Apply Filters</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-9 col-md-8">
+                    
+                    <div class="d-flex flex-column flex-sm-row justify-content-between align-items-sm-center bg-white border rounded-3 px-4 py-3 mb-4 gap-3">
+                        <div class="text-muted small">Showing <span class="fw-bold text-dark">374</span> of 1236 products</div>
+                        <div class="d-flex align-items-center gap-2">
+                            <span class="text-muted small text-nowrap">Sort by</span>
+                            <select class="form-select form-select-sm sort-dropdown">
+                                <option selected>Popularity</option>
+                                <option>Price: Low to High</option>
+                                <option>Price: High to Low</option>
+                                <option>Newest Arrivals</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="product-card mt-3 row g-3 justify-content-center mx-0">
+
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                            <div class="product w-100">
+                                <a href="detail.html">
+                                    <div class="product-img"></div>
+                                </a>
+                                <div class="p-3 d-flex flex-column justify-content-between calc-height">
+                                    <div>
+                                        <div class="text-muted small">Samsung</div>
+                                        <a href="detail.html" class="product-name d-block text-truncate">Samsung A16 5G</a>
+                                        <div class="my-1">
+                                            <span class="stars">★★★★<span class="empty">★</span></span>
+                                            <span class="text-muted small">(4.0)</span>
+                                        </div>
+                                        <div>
+                                            <span class="price-now">₹999</span>
+                                            <span class="price-was">₹1599</span>
+                                            <span class="price-off">38% off</span>
+                                        </div>
+                                    </div>
+                                    <a href="cart.html" class="mt-2 text-decoration-none">
+                                        <div class="aoc px-2 py-1 d-flex justify-content-center">Add to Cart</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                            <div class="product w-100">
+                                <a href="detail.html">
+                                    <div class="product-img"></div>
+                                </a>
+                                <div class="p-3 d-flex flex-column justify-content-between calc-height">
+                                    <div>
+                                        <div class="text-muted small">H&M</div>
+                                        <a href="detail.html" class="product-name d-block text-truncate">Cotton Shirt</a>
+                                        <div class="my-1">
+                                            <span class="stars">★★★<span class="empty">★★</span></span>
+                                            <span class="text-muted small">(3.9)</span>
+                                        </div>
+                                        <div>
+                                            <span class="price-now">₹499</span>
+                                            <span class="price-was">₹1099</span>
+                                            <span class="price-off">55% off</span>
+                                        </div>
+                                    </div>
+                                    <a href="cart.html" class="mt-2 text-decoration-none">
+                                        <div class="aoc px-2 py-1 d-flex justify-content-center">Add to Cart</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                            <div class="product w-100">
+                                <a href="detail.html">
+                                    <div class="product-img"></div>
+                                </a>
+                                <div class="p-3 d-flex flex-column justify-content-between calc-height">
+                                    <div>
+                                        <div class="text-muted small">Zara</div>
+                                        <a href="detail.html" class="product-name d-block text-truncate">Pant</a>
+                                        <div class="my-1">
+                                            <span class="stars">★★★★<span class="empty">★</span></span>
+                                            <span class="text-muted small">(4.1)</span>
+                                        </div>
+                                        <div>
+                                            <span class="price-now">₹899</span>
+                                            <span class="price-was">₹1299</span>
+                                            <span class="price-off">30% off</span>
+                                        </div>
+                                    </div>
+                                    <a href="cart.html" class="mt-2 text-decoration-none">
+                                        <div class="aoc px-2 py-1 d-flex justify-content-center">Add to Cart</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                            <div class="product w-100">
+                                <a href="detail.html">
+                                    <div class="product-img"></div>
+                                </a>
+                                <div class="p-3 d-flex flex-column justify-content-between calc-height">
+                                    <div>
+                                        <div class="text-muted small">Lenovo</div>
+                                        <a href="detail.html" class="product-name d-block text-truncate">LOQ Gaming</a>
+                                        <div class="my-1">
+                                            <span class="stars">★★★★★<span class="empty"></span></span>
+                                            <span class="text-muted small">(5.0)</span>
+                                        </div>
+                                        <div>
+                                            <span class="price-now">₹89999</span>
+                                            <span class="price-was">₹129999</span>
+                                            <span class="price-off">30% off</span>
+                                        </div>
+                                    </div>
+                                    <a href="cart.html" class="mt-2 text-decoration-none">
+                                        <div class="aoc px-2 py-1 d-flex justify-content-center">Add to Cart</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                            <div class="product w-100">
+                                <a href="detail.html">
+                                    <div class="product-img"></div>
+                                </a>
+                                <div class="p-3 d-flex flex-column justify-content-between calc-height">
+                                    <div>
+                                        <div class="text-muted small">Apple</div>
+                                        <a href="detail.html" class="product-name d-block text-truncate">Iphone</a>
+                                        <div class="my-1">
+                                            <span class="stars">★★★★<span class="empty">★</span></span>
+                                            <span class="text-muted small">(4.6)</span>
+                                        </div>
+                                        <div>
+                                            <span class="price-now">₹99999</span>
+                                            <span class="price-was">₹159999</span>
+                                            <span class="price-off">38% off</span>
+                                        </div>
+                                    </div>
+                                    <a href="cart.html" class="mt-2 text-decoration-none">
+                                        <div class="aoc px-2 py-1 d-flex justify-content-center">Add to Cart</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                            <div class="product w-100">
+                                <a href="detail.html">
+                                    <div class="product-img"></div>
+                                </a>
+                                <div class="p-3 d-flex flex-column justify-content-between calc-height">
+                                    <div>
+                                        <div class="text-muted small">Gucci</div>
+                                        <a href="detail.html" class="product-name d-block text-truncate">Hand Bag</a>
+                                        <div class="my-1">
+                                            <span class="stars">★★★★<span class="empty">★</span></span>
+                                            <span class="text-muted small">(4.9)</span>
+                                        </div>
+                                        <div>
+                                            <span class="price-now">₹4999</span>
+                                            <span class="price-was">₹10999</span>
+                                            <span class="price-off">55% off</span>
+                                        </div>
+                                    </div>
+                                    <a href="cart.html" class="mt-2 text-decoration-none">
+                                        <div class="aoc px-2 py-1 d-flex justify-content-center">Add to Cart</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                            <div class="product w-100">
+                                <a href="detail.html">
+                                    <div class="product-img"></div>
+                                </a>
+                                <div class="p-3 d-flex flex-column justify-content-between calc-height">
+                                    <div>
+                                        <div class="text-muted small">Boult</div>
+                                        <a href="detail.html" class="product-name d-block text-truncate">Headphone</a>
+                                        <div class="my-1">
+                                            <span class="stars">★★★★<span class="empty">★</span></span>
+                                            <span class="text-muted small">(4.1)</span>
+                                        </div>
+                                        <div>
+                                            <span class="price-now">₹899</span>
+                                            <span class="price-was">₹1299</span>
+                                            <span class="price-off">30% off</span>
+                                        </div>
+                                    </div>
+                                    <a href="cart.html" class="mt-2 text-decoration-none">
+                                        <div class="aoc px-2 py-1 d-flex justify-content-center">Add to Cart</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                            <div class="product w-100">
+                                <a href="detail.html">
+                                    <div class="product-img"></div>
+                                </a>
+                                <div class="p-3 d-flex flex-column justify-content-between calc-height">
+                                    <div>
+                                        <div class="text-muted small">Lenovo</div>
+                                        <a href="detail.html" class="product-name d-block text-truncate">Mouse</a>
+                                        <div class="my-1">
+                                            <span class="stars">★★★<span class="empty">★★</span></span>
+                                            <span class="text-muted small">(5.0)</span>
+                                        </div>
+                                        <div>
+                                            <span class="price-now">₹899</span>
+                                            <span class="price-was">₹1299</span>
+                                            <span class="price-off">30% off</span>
+                                        </div>
+                                    </div>
+                                    <a href="cart.html" class="mt-2 text-decoration-none">
+                                        <div class="aoc px-2 py-1 d-flex justify-content-center">Add to Cart</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                            <div class="product w-100">
+                                <a href="detail.html">
+                                    <div class="product-img"></div>
+                                </a>
+                                <div class="p-3 d-flex flex-column justify-content-between calc-height">
+                                    <div>
+                                        <div class="text-muted small">Apple</div>
+                                        <a href="detail.html" class="product-name d-block text-truncate">Macbook pro</a>
+                                        <div class="my-1">
+                                            <span class="stars">★★★★<span class="empty">★</span></span>
+                                            <span class="text-muted small">(4.0)</span>
+                                        </div>
+                                        <div>
+                                            <span class="price-now">₹99900</span>
+                                            <span class="price-was">₹159900</span>
+                                            <span class="price-off">38% off</span>
+                                        </div>
+                                    </div>
+                                    <a href="cart.html" class="mt-2 text-decoration-none">
+                                        <div class="aoc px-2 py-1 d-flex justify-content-center">Add to Cart</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                            <div class="product w-100">
+                                <a href="detail.html">
+                                    <div class="product-img"></div>
+                                </a>
+                                <div class="p-3 d-flex flex-column justify-content-between calc-height">
+                                    <div>
+                                        <div class="text-muted small">Boat</div>
+                                        <a href="detail.html" class="product-name d-block text-truncate">Ear Buds</a>
+                                        <div class="my-1">
+                                            <span class="stars">★★★★<span class="empty">★</span></span>
+                                            <span class="text-muted small">(4.9)</span>
+                                        </div>
+                                        <div>
+                                            <span class="price-now">₹999</span>
+                                            <span class="price-was">₹1599</span>
+                                            <span class="price-off">45% off</span>
+                                        </div>
+                                    </div>
+                                    <a href="cart.html" class="mt-2 text-decoration-none">
+                                        <div class="aoc px-2 py-1 d-flex justify-content-center">Add to Cart</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                            <div class="product w-100">
+                                <a href="detail.html">
+                                    <div class="product-img"></div>
+                                </a>
+                                <div class="p-3 d-flex flex-column justify-content-between calc-height">
+                                    <div>
+                                        <div class="text-muted small">HP</div>
+                                        <a href="detail.html" class="product-name d-block text-truncate">HP Laptop</a>
+                                        <div class="my-1">
+                                            <span class="stars">★★★★<span class="empty">★</span></span>
+                                            <span class="text-muted small">(4.3)</span>
+                                        </div>
+                                        <div>
+                                            <span class="price-now">₹59990</span>
+                                            <span class="price-was">₹99999</span>
+                                            <span class="price-off">65% off</span>
+                                        </div>
+                                    </div>
+                                    <a href="cart.html" class="mt-2 text-decoration-none">
+                                        <div class="aoc px-2 py-1 d-flex justify-content-center">Add to Cart</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                            <div class="product w-100">
+                                <a href="detail.html">
+                                    <div class="product-img"></div>
+                                </a>
+                                <div class="p-3 d-flex flex-column justify-content-between calc-height">
+                                    <div>
+                                        <div class="text-muted small">Microsoft</div>
+                                        <a href="detail.html" class="product-name d-block text-truncate">Wireless Mouse</a>
+                                        <div class="my-1">
+                                            <span class="stars">★★★★<span class="empty">★</span></span>
+                                            <span class="text-muted small">(4.5)</span>
+                                        </div>
+                                        <div>
+                                            <span class="price-now">₹799</span>
+                                            <span class="price-was">₹1399</span>
+                                            <span class="price-off">33% off</span>
+                                        </div>
+                                    </div>
+                                    <a href="cart.html" class="mt-2 text-decoration-none">
+                                        <div class="aoc px-2 py-1 d-flex justify-content-center">Add to Cart</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div> 
+
+                    <nav class="d-flex justify-content-center mt-5">
+                        <ul class="pagination custom-pagination gap-1">
+                            <li class="page-item disabled"><a class="page-link px-3" href="#">Prev</a></li>
+                            <li class="page-item active"><a class="page-link px-3" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link px-3" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link px-3" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link px-3" href="#">Next</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
     </main>
 
     

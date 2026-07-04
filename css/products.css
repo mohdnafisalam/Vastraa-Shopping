@@ -35,6 +35,135 @@ header {
     text-decoration: none;
 }
 
+/* main */
+.shopping-box {
+    background-color: #d8cfaf;
+    border-radius: 15px;
+}
+
+/* Sticky Filters */
+.filter-sidebar {
+    position: sticky;
+    top: 20px;
+    z-index: 10;
+}
+
+.filter-list-group .list-group-item {
+    font-size: 1.2rem;
+    color: black;
+}
+.list-group{
+    border: 1px solid gray;
+}
+.list-border{
+    border-bottom: 1px solid gray;
+}
+
+.btn-apply-filters {
+    background-color: #32533D; 
+    color: #ffffff;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn-apply-filters:hover {
+    background-color: #23392b;
+    color: #ffffff;
+}
+
+.sort-dropdown {
+    width: auto;
+    min-width: 140px;
+    cursor: pointer;
+}
+
+.custom-pagination .page-link {
+    color: #212529;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+.custom-pagination .page-item.active .page-link {
+    background-color: #bc4c23;
+    border-color: #bc4c23;
+    color: #ffffff;
+}
+
+@media (max-width: 991.98px) {
+    .filter-sidebar {
+        position: relative;
+        top: 0;
+        margin-bottom: 20px;
+    }
+}
+
+/* product */
+
+.product {
+    max-width: 300px;
+    border-radius: 13px;
+    background-color: whitesmoke;
+}
+
+.product-img {
+    background-image: url("../assets/image/placeholder.png");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+
+.product-name {
+    color: black;
+    font-weight: 500;
+}
+
+.stars {
+     color: gold; 
+}
+.empty {
+     color: grey; 
+}
+.price-now {
+     font-weight: 700;
+      color: black; 
+}
+.price-was {
+     text-decoration: line-through;
+      color: grey;
+       font-size: .85rem; 
+}
+.price-off {
+     color: red;
+      font-weight: 600;
+       font-size: .85rem; 
+}
+
+
+.aoc {
+    color: #b42b68;
+    border: 1px solid #b42b68;
+    border-radius: 10px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.aoc:hover {
+    color: white;
+    background-color: #b42b68;
+}
+
+
+
+
+
+
+
+
+
 /* Navbar */
 .nav-bar {
     background-color: #32533D;

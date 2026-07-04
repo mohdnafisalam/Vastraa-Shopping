@@ -35,6 +35,101 @@ header {
     text-decoration: none;
 }
 
+
+
+/* Container Box */
+.contact-box {
+    background-color: #d8cfaf;
+    border-radius: 15px;
+}
+
+
+.inner-card {
+    background-color: #ffffff;
+    border: 1px solid #f0edf0;
+    border-radius: 12px;
+    height: 100%;
+}
+
+/* Headings */
+.box-title {
+    font-size: 1.45rem;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.box-title-sm {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #111111;
+}
+
+.form-label {
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: #3a3a3a;
+    margin-bottom: 8px;
+}
+
+.form-control, .form-select, .input-group-text {
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-size: 0.95rem;
+    color: #212529;
+}
+
+
+
+/* Primary Form Button */
+.btn-submit {
+    background-color: #32533D;
+    color: #ffffff;
+    border: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    border-radius: 6px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn-submit:hover {
+    background-color: #1b2d21;
+    color: #ffffff;
+}
+
+/* Side Contact Rows */
+.contact-label {
+    font-size: 0.95rem;
+    color: #333333;
+}
+
+.contact-value {
+    font-size: 0.95rem;
+    color: #666666;
+}
+
+
+.faq-list .list-group-item {
+    font-size: 0.95rem;
+    color: #255033;
+    background: transparent;
+    transition: padding-left 0.2s ease;
+}
+
+.faq-list .list-group-item:hover {
+    color: #233529;
+    padding-left: 4px;
+}
+
+@media (max-width: 767.98px) {
+    .contact-box {
+        padding: 12px;
+    }
+    .inner-card {
+        padding: 20px;
+    }
+}
+
 /* Navbar */
 .nav-bar {
     background-color: #32533D;
