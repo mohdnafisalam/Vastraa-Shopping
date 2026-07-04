@@ -111,13 +111,13 @@ header {
 }
 
 .promo1 {
-    background-image: url("../assets/image/promo1.webp");
+    background-image: url("../assets/image/promo.png");
     background-size: cover;
     background-position: center;
 }
 
 .promo2 {
-    background-image: url("../assets/image/promo2.webp");
+    background-image: url("../assets/image/promo.png");
     background-size: cover;
     background-position: center;
 }
